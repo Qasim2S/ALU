@@ -1,0 +1,2 @@
+Command Line: /CMC/tools/synopsys/verdi_vS-2021.09-SP1-1/verdi/S-2021.09-SP1-1/platform/LINUXAMD64/bin/Novas -nWave tb.vcd
+uname(Linux vcl-vm0-175 4.18.0-553.27.1.el8_10.x86_64 #1 SMP Wed Nov 6 14:29:02 UTC 2024 x86_64)

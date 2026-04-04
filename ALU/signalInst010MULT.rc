@@ -1,0 +1,194 @@
+Magic 271485
+Revision Verdi_S-2021.09-SP1-1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 11 46 1259 709 154 136
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/v72206/MiniProject_01/1101_hw1/tb.vcd" "/home/v72206/MiniProject_01/1101_hw1/tb.vcd.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 274761.171975 363600.000000
+cursor 40000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 10
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+activeDirFile "" "/home/v72206/MiniProject_01/1101_hw1/tb.vcd.fsdb"
+userBusMem /tb/u_alu/i_data_a[11]
+userBusMem /tb/u_alu/i_data_a[10]
+userBusMem /tb/u_alu/i_data_a[9]
+userBusMem /tb/u_alu/i_data_a[8]
+userBusMem /tb/u_alu/i_data_a[7]
+userBusMem /tb/u_alu/i_data_a[6]
+userBusMem /tb/u_alu/i_data_a[5]
+saveRunSig "/NewBus[6:0]"
+
+; rename signal list
+; addRenameSig new_name org_name
+
+addRenameSig "/data_A_int[6:0]" "/NewBus[6:0]"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /tb/u_alu/i_data_a[4]
+userBusMem /tb/u_alu/i_data_a[3]
+userBusMem /tb/u_alu/i_data_a[2]
+userBusMem /tb/u_alu/i_data_a[1]
+userBusMem /tb/u_alu/i_data_a[0]
+saveRunSig "/data_A_frac[4:0]"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /tb/u_alu/i_data_b[11]
+userBusMem /tb/u_alu/i_data_b[10]
+userBusMem /tb/u_alu/i_data_b[9]
+userBusMem /tb/u_alu/i_data_b[8]
+userBusMem /tb/u_alu/i_data_b[7]
+userBusMem /tb/u_alu/i_data_b[6]
+userBusMem /tb/u_alu/i_data_b[5]
+saveRunSig "/data_B_int[6:0]"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /tb/u_alu/i_data_b[4]
+userBusMem /tb/u_alu/i_data_b[3]
+userBusMem /tb/u_alu/i_data_b[2]
+userBusMem /tb/u_alu/i_data_b[1]
+userBusMem /tb/u_alu/i_data_b[0]
+saveRunSig "/data_B_frac[4:0]"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /tb/u_alu/o_data[11]
+userBusMem /tb/u_alu/o_data[10]
+userBusMem /tb/u_alu/o_data[9]
+userBusMem /tb/u_alu/o_data[8]
+userBusMem /tb/u_alu/o_data[7]
+userBusMem /tb/u_alu/o_data[6]
+userBusMem /tb/u_alu/o_data[5]
+saveRunSig "/output_int[6:0]"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /tb/u_alu/o_data[4]
+userBusMem /tb/u_alu/o_data[3]
+userBusMem /tb/u_alu/o_data[2]
+userBusMem /tb/u_alu/o_data[1]
+userBusMem /tb/u_alu/o_data[0]
+saveRunSig "/output_frac[4:0]"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /tb/u_alu/mult_wide[23]
+userBusMem /tb/u_alu/mult_wide[22]
+userBusMem /tb/u_alu/mult_wide[21]
+userBusMem /tb/u_alu/mult_wide[20]
+userBusMem /tb/u_alu/mult_wide[19]
+userBusMem /tb/u_alu/mult_wide[18]
+userBusMem /tb/u_alu/mult_wide[17]
+userBusMem /tb/u_alu/mult_wide[16]
+userBusMem /tb/u_alu/mult_wide[15]
+userBusMem /tb/u_alu/mult_wide[14]
+userBusMem /tb/u_alu/mult_wide[13]
+userBusMem /tb/u_alu/mult_wide[12]
+userBusMem /tb/u_alu/mult_wide[11]
+userBusMem /tb/u_alu/mult_wide[10]
+saveRunSig "/mult_wide_int[13:0]"
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+userBusMem /tb/u_alu/mult_wide[9]
+userBusMem /tb/u_alu/mult_wide[8]
+userBusMem /tb/u_alu/mult_wide[7]
+userBusMem /tb/u_alu/mult_wide[6]
+userBusMem /tb/u_alu/mult_wide[5]
+userBusMem /tb/u_alu/mult_wide[4]
+userBusMem /tb/u_alu/mult_wide[3]
+userBusMem /tb/u_alu/mult_wide[2]
+userBusMem /tb/u_alu/mult_wide[1]
+userBusMem /tb/u_alu/mult_wide[0]
+saveRunSig "/mult_wide_frac[9:0]"
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+aliasmapname alias_tab_1
+
+addGroup "G1"
+activeDirFile "" "/home/v72206/MiniProject_01/1101_hw1/tb.vcd.fsdb"
+addSignal -h 15 /tb/u_alu/i_clk
+addSignal -h 15 -holdScope i_rst_n
+addSignal -h 15 -holdScope i_valid
+addSignal -h 15 -holdScope i_inst[2:0]
+addSignal -h 15 -2COMP -UDEC /data_A_int[6:0]
+addSignal -h 15 -UNSIGNED -BIN /data_A_frac[4:0]
+addSignal -h 15 -2COMP -UDEC /data_B_int[6:0]
+addSignal -h 15 -UNSIGNED -BIN /data_B_frac[4:0]
+addSignal -h 15 -2COMP -UDEC /mult_wide_int[13:0]
+addSignal -h 15 -UNSIGNED -BIN /mult_wide_frac[9:0]
+addSignal -h 15 -2COMP -UDEC /output_int[6:0]
+addSignal -h 15 -UNSIGNED -BIN /output_frac[4:0]
+addSignal -h 15 /tb/u_alu/o_overflow_w
+addSignal -h 15 -holdScope o_overflow
+addSignal -h 15 -holdScope o_valid
+addSignal -h 15 -holdScope o_valid_w
+addGroup "G3"
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/home/v72206/MiniProject_01/1101_hw1/tb.vcd.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/tb"
+"/tb/u_alu"
+
+SCOPE_LIST_BEGIN
+"/tb"
+"/tb/u_alu"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+
